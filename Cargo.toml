@@ -1,0 +1,17 @@
+[package]
+name = "zeta"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.4"
+getrandom = { version = "0.2", features = ["js"] }
+
+[dependencies.yew]
+version = "0.20.0"
+features = ["csr"]
+
+[dependencies.web-sys]
+version = "0.3"
+features = ["HtmlInputElement"]
+
