@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: Indigo;
+}
+
+.main {
+    background-color: red;
+    text-align: center;
+    width: 90vw;
+    height: 90vh;
+}
+
+
+.input_bar {
+    background-color: BlueViolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#lhs{
+    font-size: 40px;
+    padding: 10px;
+}
+
+input {
+    color: #3498db;
+    padding: 20px 20px;
+    font-size: 40px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    background-color: CornflowerBlue;
+    color: #000000;
+
+    text-align: center; 
+    caret-color: transparent;
+}
+
+input[type="text"]:focus {
+    border-radius: 30px;
+    border-color: #007bff; 
+}
+
