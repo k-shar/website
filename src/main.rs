@@ -88,7 +88,7 @@ impl App {
             }
         });
 
-        html! { <input type="text" {onkeyup} /> }
+        html! { <input type="number" {onkeyup} /> }
     }
 }
 
